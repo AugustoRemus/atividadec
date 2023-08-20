@@ -1,0 +1,2 @@
+# atividadec
+atividades em c
