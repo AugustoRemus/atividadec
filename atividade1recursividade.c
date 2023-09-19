@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int func();
+int func(int base, int expoente, int total);
 
 int main(){
 int total = 1;
@@ -16,6 +16,7 @@ int func(int base, int expoente, int total)
     {
         return(total);
     }
+   
     else
     {
         total = total* base;
