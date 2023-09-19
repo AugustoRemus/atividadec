@@ -4,8 +4,8 @@ int func();
 
 int main(){
 int total = 1;
-int expoente = 4;
-int base = 2;
+int expoente = 1;
+int base = 4;
 total = func(base, expoente, total);
 printf("%d", total);
 }
@@ -15,10 +15,6 @@ int func(int base, int expoente, int total)
     if(expoente == 0)
     {
         return(total);
-    }
-    if(expoente == 1)
-    {
-        total = total*base;
     }
     else
     {
